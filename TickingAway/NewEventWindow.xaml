@@ -1,0 +1,16 @@
+﻿<Window x:Class="TickingAway.NewEventWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TickingAway"
+        mc:Ignorable="d"
+        Title="NewEventWindow" Height="450" Width="800">
+    <Grid>
+        <Label Name="label_newEvent" Content="Event Name:" HorizontalAlignment="Left" Margin="63,44,0,0" VerticalAlignment="Top" Width="189"/>
+        <TextBox Name="textBox_newEventName" HorizontalAlignment="Left" Height="23" Margin="282,48,0,0" TextWrapping="Wrap" Text="(Event Name)" VerticalAlignment="Top" Width="120"/>
+        <DatePicker Name="datePicker_newEventDate" HorizontalAlignment="Left" Margin="94,131,0,0" VerticalAlignment="Top"/>
+        <Button Name="button_createEvent" Content="Create Event" HorizontalAlignment="Left" Margin="620,335,0,0" VerticalAlignment="Top" Width="75" Click="button_createEvent_Click"/>
+
+    </Grid>
+</Window>

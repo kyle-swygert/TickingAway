@@ -1,0 +1,20 @@
+﻿<Window x:Class="TickingAway.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TickingAway"
+        mc:Ignorable="d"
+        Title="TickingAway" Height="450" Width="800">
+    <Grid>
+        <Button Name="button_newEvent" Content="New Event" Margin="650,381,0,0" Height="19" VerticalAlignment="Top" HorizontalAlignment="Left" Width="120" Click="button_newEvent_Click"/>
+        <Label HorizontalAlignment="Left" Margin="135,350,0,0" VerticalAlignment="Top">
+            <Label Name="label_futurePast" Content="In the Future / In the Past" Width="482"/>
+        </Label>
+        <Label Name="label_calculatedTime" Content="## Days     ## Hours" HorizontalAlignment="Left" Margin="139,247,0,0" VerticalAlignment="Top" Width="458"/>
+        <TextBox Name="textBox_currentEventInfo" HorizontalAlignment="Left" Height="100" Margin="134,80,0,0" TextWrapping="Wrap" Text="Event: ###
+                 Date: ###
+                 Time: ###" VerticalAlignment="Top" Width="548" IsReadOnly="True" />
+
+    </Grid>
+</Window>
