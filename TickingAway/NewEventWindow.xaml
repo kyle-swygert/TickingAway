@@ -5,12 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TickingAway"
         mc:Ignorable="d"
-        Title="NewEventWindow" Height="450" Width="800">
+        Title="Create New Event" Height="150" Width="425">
     <Grid>
-        <Label Name="label_newEvent" Content="Event Name:" HorizontalAlignment="Left" Margin="63,44,0,0" VerticalAlignment="Top" Width="189"/>
-        <TextBox Name="textBox_newEventName" HorizontalAlignment="Left" Height="23" Margin="282,48,0,0" TextWrapping="Wrap" Text="(Event Name)" VerticalAlignment="Top" Width="120"/>
-        <DatePicker Name="datePicker_newEventDate" HorizontalAlignment="Left" Margin="94,131,0,0" VerticalAlignment="Top"/>
-        <Button Name="button_createEvent" Content="Create Event" HorizontalAlignment="Left" Margin="620,335,0,0" VerticalAlignment="Top" Width="75" Click="button_createEvent_Click"/>
+        <Label Name="label_newEvent" Content="Event Name:" HorizontalAlignment="Left" Margin="25,25,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox Name="textBox_newEventName" HorizontalAlignment="Left"  Margin="135,27,0,0" TextWrapping="Wrap" Text="Event Name" VerticalAlignment="Top" Width="250" Height="20"/>
+        <DatePicker Name="datePicker_newEventDate" HorizontalAlignment="Left" Margin="135,60,0,0" VerticalAlignment="Top" Width="150" />
+        <Button Name="button_createEvent" Content="Create Event" HorizontalAlignment="Left" Margin="300,60,0,0" VerticalAlignment="Top" Width="75" Click="button_createEvent_Click" Height="20"/>
+        <Label Name="label_newDate" Content="EventDate:" HorizontalAlignment="Left" Margin="25,60,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

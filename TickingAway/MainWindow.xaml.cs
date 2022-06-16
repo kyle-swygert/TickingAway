@@ -39,6 +39,7 @@ namespace TickingAway
             popup.ShowDialog();
 
             
+            
 
             // TODO: When the user has entered the event name and date on the popup window then closes the window with the top right X button, DO NOT DO THE CALCULATION OF THE EVENT. KEEP THE VALUES FROM THE PREVIOUSLY CALCULATED EVENT DATE!
 
@@ -80,11 +81,7 @@ namespace TickingAway
                  Console.WriteLine(goblin.Message);
 
             }
-
-
-
-
-
+            
 
         }
         

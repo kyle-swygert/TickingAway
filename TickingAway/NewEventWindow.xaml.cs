@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,6 +23,15 @@ namespace TickingAway
         public NewEventWindow()
         {
             InitializeComponent();
+        }
+
+        protected override void OnClosing(CancelEventArgs e)
+        {
+
+            int goblin = 0;
+
+
+            base.OnClosing(e);
         }
 
         private void button_createEvent_Click(object sender, RoutedEventArgs e)
